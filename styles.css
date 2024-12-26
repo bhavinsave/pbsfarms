@@ -9,7 +9,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: #f9f9f9; /* Light background */
-    background-image: url('Images/orchid-background.jpeg'); /* Orchid background */
+    background-image: url('./Images/orchid-background.jpeg'); /* Orchid background */
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -21,6 +21,7 @@ body {
 @media (max-width: 768px) {
     body {
         background-size: contain; /* Ensures the image fits better on small screens */
+        background-attachment: scroll; /* Fix for mobile scrolling issues */
     }
 }
 a {
@@ -459,3 +460,4 @@ p, div {
         height: auto;
     }
 }
+
