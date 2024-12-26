@@ -10,8 +10,14 @@ body {
     background-attachment: fixed;
     background-position: center;
     color: #333; /* Dark text for readability */
+    background-repeat: no-repeat;
 }
-
+/* Specific adjustments for mobile devices */
+@media (max-width: 768px) {
+    body {
+        background-size: contain; /* Ensures the image fits better on small screens */
+    }
+}
 a {
     text-decoration: none;
     color: inherit;
