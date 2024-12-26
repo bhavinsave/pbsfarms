@@ -20,7 +20,7 @@ body {
 /* Specific adjustments for mobile devices */
 @media (max-width: 768px) {
     body {
-        background-size: contain; /* Ensures the image fits better on small screens */
+        background-size: cover; /*Ensures the image fits better on small screens */
         background-attachment: scroll; /* Fix for mobile scrolling issues */
     }
 }
